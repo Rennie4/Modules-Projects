@@ -18,7 +18,7 @@ output "main_vpc_private_subnet_ids" {
 # Output the ID of the route table association for private subnet 1 from the 'vpc' module.
 output "main_vpc_private_subnet1_assoc_id" {
   description = "The ID of the route table association for private subnet 1."
-  value       = module.vpc.private_subnet1_assoc_id
+  value       = module.vpc.private_subnet1_assoc_subnet_id
 }
 
 # Output the ID of the private route table from the 'vpc' module.
